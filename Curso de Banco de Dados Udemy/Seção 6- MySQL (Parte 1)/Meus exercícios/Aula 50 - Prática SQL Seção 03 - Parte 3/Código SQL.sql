@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS secao_04
+DEFAULT CHARACTER SET utf8
+DEFAULT COLLATE utf8_general_ci;
+
+USE secao_04;
+
+CREATE TABLE tipos_produto IF NOT EXISTS (
+	codigo INT NOT NULL AUTO_INCREMENT,
+    descricao VARCHAR(30) NOT NULL,
+    PRIMARY KEY(codigo)
+) DEFAULT CHARSET = utf8;
+
+CREATE TABLE IF NOT exists produtos (
+	
+) DEFAULT CHARSET = utf8;
