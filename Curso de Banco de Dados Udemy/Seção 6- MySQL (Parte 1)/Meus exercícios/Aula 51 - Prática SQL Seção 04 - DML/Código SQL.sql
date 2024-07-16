@@ -1,5 +1,7 @@
 # DML
 
+USE secao_04;
+
 SELECT * FROM produtos;
 SELECT * FROM tipos_produto;
 
